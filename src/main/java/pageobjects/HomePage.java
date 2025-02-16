@@ -28,7 +28,7 @@ public class HomePage {
 	
 	@FindBy(xpath="//*[text()='Login']")
 	WebElement loginButton;
-	
+	 
 
 	public String uRLlaunchSuccessfulAssertion() {
 		return URLlaunchSuccessfulAssertion.getText();
